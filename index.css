@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+html,
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+    background-size: cover;
+    
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+}
+
+
+.bg-container {
+    /* background-color: #4c1d95;
+    /* background-image: url('image-1.jfif'); */
+    /* background-image: radial-gradient(#674188,#C3ACD0,#F7EFE5); */
+    /* background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; */
+
+    max-width: 575px;
+    max-height: 385px;
+    background: #4c1d95;
+    border-radius: 12px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    color: white;
+    padding: 68px 82px;
+    /* gap: 100px; */
+    box-shadow: 2px 3px 3px black;
+    margin: auto;
+    margin-top: 12%;
+    gap: 10px;
+  }
+  
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    background: transparent;
+    margin: 10px;
+  
+  }
+  
+  .percentage-circle {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    margin : 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    stroke-dasharray: 100 100;
+  }
+  
+  .circle {
+    fill: none;
+    /* stroke: green; */
+    stroke: #03001C;
+    stroke-width: 2;
+    stroke-dasharray: 0 100;
+    transition: stroke-dasharray 0.2s;
+  }
+  
+  .percentage-text {
+    font-size: 10px;
+    color: white;
+  }
+  
+  .percentage-text tspan {
+    fill: white;
+  }
+  .custom-btn:active{
+    color: black;
+    border-color: black;
+    transition: 3ms;
+  }
