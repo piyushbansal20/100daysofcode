@@ -28,7 +28,7 @@ incrementButton.addEventListener('click', () => {
 decrementButton.addEventListener('click', () => {
   percentage -= 1;
   localStorage.setItem('count' , percentage);
-  if (percentage < 0) {
+  if (percentage <= 0) {
     percentage = 0;
   }
   percentageNumber.innerHTML = percentage;
